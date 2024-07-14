@@ -1,9 +1,11 @@
+/* Universal selector for box-sizing and zeroing margin and padding */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Shared properties for header and hero containers */
 .header-container, .hero-container {
     background-color: #1f2937;
     color: #f9faf8;
@@ -12,38 +14,47 @@
 
 }
 
+/* Specific styling for header-container */
 .header-container {
     display: flex;
     justify-content: center;
 }
 
+/* Flex layout for header and central alignment */
 .header {
     font-size: 24px;
-    width: 2160px; 
+    width: 100%; 
+    /* 100% instead of a fixed with allows for more responsiveness */
     display: flex;
     justify-content: space-between;
 
 }
 
+/* Flex alignment for logo */
 .logo {
     display: flex;
     justify-content: flex-start;
 }
 
+/* Margin adjustment for links */
 .link-one {
     margin-left: auto;
+     /* Pushes link-one to the far right */
 }
 
 .link-two,
 .link-three {
     margin-left: 20px;
+    /* Spacing between link-two and link-three */
 }
 
+/* Styling for hero section */
 .hero {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
 }
 
+/* Shared styles for text elements */
 .hero-subtext, 
 .link-one, 
 .link-two, 
