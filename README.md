@@ -12,4 +12,4 @@ The landing page must include
 
 The layout and the css styling, like colors and fonts, are already given. Working on foundational HTML and CSS and working through how to recreate the landing page. 
 
-I hope to gain hone my skills/understanding with both HTML and CSS. I also hope to work on my problem-solving skills and ability to find information using the internet to find solutions when I am unable to figure it out at the moment. I also hope to get more comfortable using the CLI/Terminal and practicing git and making good commits.
+I hope to hone my skills/understanding with both HTML and CSS. I also hope to work on my problem-solving skills and ability to find information using the internet to find solutions when I am unable to figure it out at the moment. I also hope to get more comfortable using the CLI/Terminal and practicing git and making good commits.
