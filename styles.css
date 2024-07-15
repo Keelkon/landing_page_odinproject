@@ -18,13 +18,14 @@
 .header-container {
     display: flex;
     justify-content: center;
+    
 }
 
 /* Flex layout for header and central alignment */
 .header {
     font-size: 24px;
     width: 100%; 
-    /* 100% instead of a fixed with allows for more responsiveness */
+    /* 100% makes header responsive amd span the fuill width of container*/
     display: flex;
     justify-content: space-between;
 
@@ -49,7 +50,7 @@
 }
 
 /* Styling for hero section */
-.hero {
+.hero-text {
     font-size: 48px;
     font-weight: bolder;
 }
@@ -61,4 +62,39 @@
 .link-three {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    width:max-content; 
+    padding: 6px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Changes cursor to pointer to indicate it's clickable */
+
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    /* arranges items vertically withim info container */
+    padding-right: 50px;
+    gap: 10px; /* Space between items in the column */
+    flex: 1; /* Allows flex items to grow and fill available space */
+}
+
+.hero-img {
+    display: flex;
+    
 }
