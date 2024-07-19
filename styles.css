@@ -3,13 +3,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 /* Shared properties for header and hero containers */
 .header-container, .hero-container {
     background-color: #1f2937;
     color: #f9faf8;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 20px 100px;
 
 }
@@ -68,10 +68,9 @@ button {
     background-color: #3882F6;
     color: #f9faf8;
     width:max-content; 
-    padding: 6px 26px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 26px; /* Adds padding inside the button */
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -83,6 +82,8 @@ button {
     display: flex;
     align-items: center;
     flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    padding-bottom: 75px;
+    gap: 10px;
 }
 
 .hero-info {
@@ -97,4 +98,112 @@ button {
 .hero-img {
     display: flex;
     
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5rem;
+    gap: 2rem;
+}
+
+.info-subhead {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.subinfo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    max-width: 150px;
+
+}
+
+.sub-image {
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 5px;
+
+}
+
+.info-subtext {
+    color: #888888;
+    text-align: center;
+    width: 125px;
+    
+}
+
+.section3 {
+    padding: 120px;
+    background-color: #e5e7eb;
+}
+
+.testimonial {
+    max-width: 80%;
+    margin: auto;
+   
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+.author {
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+/* Section4 contains the cta-bg container setting to flex allows centering and padding of the section. */
+.section4 {
+   display: flex;
+   justify-content: center;
+   padding: 6rem;
+}
+
+/* The cta-bg holds the two items: cta & cta-button. Doing this allows the items to be aligned in the same row as well as give style to the container. Because the cta-header and cta-info elements are in their own div within the cta-bg div they remain in block styling (on top of one another) while allowing the button to go the right of them on the same row.*/
+.cta-bg {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem 6rem;
+    border-radius: 6px;
+    
+}
+
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.cta-info {
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border: 2px solid white;
+
 }
